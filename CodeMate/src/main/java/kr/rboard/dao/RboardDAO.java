@@ -664,9 +664,6 @@ public class RboardDAO {
 				sub_sql += "WHERE " + String.join(" AND ", conditions);
 			}
 			
-			for (String condition : conditions) {
-				System.out.println(condition);
-			}
 
 			// SQL문 작성
 			sql = "SELECT * FROM ( " + "  SELECT a.*, rownum rnum FROM ( "
