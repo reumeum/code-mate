@@ -637,8 +637,10 @@ public class RboardDAO {
 						r_skills_string += " AND ";
 					}
 				}
-				r_skills_string += " OR hs_name = '" + String.join("", r_skills) + "')";
+				r_skills_string +=  ")";
 				conditions.add(r_skills_string);
+				/*				r_skills_string += " OR hs_name = '" + String.join("", r_skills) + "')";
+								conditions.add(r_skills_string);*/
 			}
 
 			if (rb_category != null && rb_category != "" && !rb_category.equals("2")) {
@@ -660,6 +662,10 @@ public class RboardDAO {
 			// 조건이 있을 경우에만 WHERE 추가
 			if (!conditions.isEmpty()) {
 				sub_sql += "WHERE " + String.join(" AND ", conditions);
+			}
+			
+			for (String condition : conditions) {
+				System.out.println(condition);
 			}
 
 			// SQL문 작성

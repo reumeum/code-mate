@@ -109,7 +109,7 @@ $(document).ready(function() {
 							output += '</div>';
 							if (item.daysLeft < 0 || item.team_status == 1 || item.team_status == 3) {
 								output += '<div class="end_recruit">모집 마감</div>';
-							}
+							}					
 							output += '</li>';
 						});
 

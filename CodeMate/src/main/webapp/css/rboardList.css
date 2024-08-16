@@ -220,7 +220,7 @@ input[id="recruiting_filter"]:checked+label {
 	justify-content: space-between;
 	background: white;
 	transition: all .3s ease-in-out;
-	position: flex;
+	position: relative;
 }
 /* r-item 올렸을 때 스케일 확대 */
 .r-item:hover {
