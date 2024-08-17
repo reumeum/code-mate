@@ -36,19 +36,3 @@
 - **Git & GitHub**: 버전 관리 및 협업
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-- **Java JDK 1.8+**
-- **Apache Tomcat 9.0+**
-- **Oracle Database** (설치 및 설정이 필요합니다)
-- **Eclipse IDE** (또는 원하는 Java IDE)
-
-### Installation & Setup
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/codemate.git
-   cd codemate
