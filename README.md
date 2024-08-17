@@ -1,6 +1,5 @@
 # CodeMate
 
-![CodeMate Main Logo](https://prod-files-secure.s3.us-west-2.amazonaws.com/621b3c2b-96c7-4aa6-aaee-59def634f55a/9c06900e-e01b-4010-9544-6d0c8011005a/88879bbd-e0e9-4d11-84e3-8f24d966010a.png)
 
 ## 📖 What We Made
 
